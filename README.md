@@ -7,5 +7,5 @@ Java, Springboot, Maven, Open API
 
 # Configuration
 
-Medium Link: https://sachithariyathilaka.medium.com/open-api-configuration-162671182964
+https://sachithariyathilaka.medium.com/open-api-configuration-162671182964
 
