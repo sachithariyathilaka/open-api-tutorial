@@ -1,4 +1,4 @@
-package com.openapi.tutorial.config;
+package io.github.sachithariyathilaka.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -11,6 +11,13 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
+/**
+ * Configuration bean class for open api configurations.
+ *
+ * @author  Sachith Ariyathilaka
+ * @version 1.0.0
+ * @since   2024/03/24
+ */
 @Configuration
 public class OpenAPIConfig {
 
@@ -47,6 +54,11 @@ public class OpenAPIConfig {
     @Value("${swagger-info-terms}")
     private String swaggerInfoTerms;
 
+    /**
+     * Initiate the open api bean.
+     *
+     * @return the open api
+     */
     @Bean
     public OpenAPI openAPI() {
 
