@@ -27,9 +27,11 @@
 
 	<!-- License information -->
 	<licenses>
+		
 		<license>
 			<name>MIT Licence</name>
 		</license>
+		
 	</licenses>
 
 	<!-- Organization information -->
@@ -40,6 +42,7 @@
 
 	<!-- Developer information -->
 	<developers>
+		
 		<developer>
 			<id>1</id>
 			<name>Sachith Ariyathilaka</name>
@@ -51,6 +54,7 @@
 			</roles>
 			<timezone>UTC +5:30</timezone>
 		</developer>
+		
 	</developers>
 
 	<!-- Property information -->
@@ -91,12 +95,14 @@
 
 	<!-- Profile information -->
 	<profiles>
+		
 		<profile>
 			<id>tutorial</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
 		</profile>
+		
 	</profiles>
 
 	<!-- Repository information -->
@@ -169,11 +175,22 @@
 		<finalName>${project.artifactId}-${project.version}</finalName>
 
 		<!-- Plugin information -->
+		<resources>
+			
+			<resource>
+				<directory>${basedir}/src/main/resources</directory>
+			</resource>
+			
+		</resources>
+
+		<!-- Plugin information -->
 		<plugins>
+			
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
 		</plugins>
 
 	</build>
