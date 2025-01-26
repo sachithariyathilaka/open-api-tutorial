@@ -10,13 +10,13 @@ Spring boot tutorial project for configure Open API.
   * Maven
   * Lombok
 
-* ### Configuration
-  * https://sachithariyathilaka.medium.com/open-api-configuration-162671182964
+* ### Documentation
+  * [Read on Medium](https://sachithariyathilaka.medium.com/open-api-configuration-162671182964)
   
 * ### Release Note
 
-  * Release: 1.0.0
-  * Date: 2024/03/24
+  * Version: 1.0.0
+  * Release Date: 2024/03/24
   * Module: Open API Tutorial
   * Changes
     * Implement the open api configuration bean.
